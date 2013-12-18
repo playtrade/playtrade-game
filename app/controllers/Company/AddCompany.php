@@ -16,8 +16,6 @@ function handleAddCompanyForm()
 function handleAddCompany()
 {
     
-    $trade = new Trade();
-    
     //=== Start geeting $_POST values for trade === /
     //Set Company name
     if(isset($_POST['CompanyName'])&&!empty($_POST['CompanyName'])){
